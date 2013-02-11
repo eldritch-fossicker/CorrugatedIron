@@ -13,3 +13,4 @@ script:
   - ./.travis/PackageRestore.sh
   - make debug
   - ./.travis/RunTests.sh
+  - echo $?
