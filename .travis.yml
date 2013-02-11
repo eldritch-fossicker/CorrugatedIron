@@ -10,5 +10,6 @@ install:
   - sudo apt-get install mono-devel mono-gmcs nunit-console
 
 script:
+  - ./.nuget/PackageRestore.sh
   - make
   - nunit-console ./CorrugatedIron.Tests/bin/Debug/CorrugatedIron.Tests.dll
