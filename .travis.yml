@@ -11,5 +11,8 @@ install:
 
 script:
   - ./.travis/PackageRestore.sh
+  - echo $?
   - make debug
+  - echo $?
   - ./.travis/RunTests.sh
+  - echo $?
