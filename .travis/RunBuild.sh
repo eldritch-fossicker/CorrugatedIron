@@ -5,3 +5,4 @@ cd ${DIR}/..
 make debug
 echo "Make result: $?"
 exit $?
+
